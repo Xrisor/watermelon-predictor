@@ -1,0 +1,7 @@
+Flask
+numpy
+opencv-python
+Pillow
+rembg
+scikit-learn
+onnxruntime
