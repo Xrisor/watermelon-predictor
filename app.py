@@ -82,6 +82,6 @@ def predict():
 if __name__ == '__main__':
     if not os.path.exists('uploads'):
         os.makedirs('uploads')
-    port = int(os.environ.get('PORT', 5000))  # 👈 Important line
-    app.run(host='0.0.0.0', port=port)
+    port = int(os.environ.get('PORT', 5000))  # Read PORT from environment
+    app.run(host='0.0.0.0', port=port, debug=False)  # Host = 0.0.0.0
 
