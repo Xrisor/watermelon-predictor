@@ -5,3 +5,4 @@ Pillow
 rembg
 scikit-learn
 onnxruntime
+gunicorn
